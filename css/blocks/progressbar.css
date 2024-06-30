@@ -1,3 +1,7 @@
+:root {
+  --completedTasks: 60%;
+}
+
 .progressbar {
   position: relative;
   width: 60px;
@@ -25,7 +29,7 @@
   width: 61px;
   height: 61px;
   border-radius: 50%;
-  background: conic-gradient(#fff 30%, transparent 0);
+  background: conic-gradient(#fff var(--completedTasks), transparent 0);
   box-sizing: border-box;
   z-index: 1;
 }
