@@ -1,0 +1,75 @@
+.checkList{
+  width: 743px;
+  background-color: #3579F5;
+  padding: 12px 18px 15px 22px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.checkList__description{
+  width: 63%;
+}
+
+.checkList__topic{
+  margin: 0;
+  margin-bottom: 4px;
+
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Inter-Regular';
+  color: #fff;
+  text-align: center;
+
+  background-color: #2364DB;
+  padding: 0 10px;
+  width: 76px;
+  box-sizing: border-box;
+  border-radius: 40px;
+}
+
+.checkList__counter{
+  margin: 0;
+  margin-bottom: 4px;
+
+  font-size: 15px;
+  line-height: 20px;
+  font-family: 'Inter-SemiBold';
+  color: #fff;
+}
+
+.checkList__nextAction{
+  margin: 0;
+
+  font-size: 12px;
+  line-height: 18px;
+  font-family: 'Inter-Regular';
+  color: #fff;
+}
+
+.checkList__showMore{
+  width: 170px;
+  height: 40px;
+  padding: 0;
+
+  background-color: #F4F8FF;
+  color: #4777ED;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  font-family: 'Inter-Regular';
+
+  border: 0;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
+
+.checkList__showMore:hover{
+  cursor: pointer;
+  background-color: #2364DB;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease, font-size 0.3s ease;
+}
